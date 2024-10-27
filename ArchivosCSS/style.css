@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;   
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 10rem;
+    text-align: center;
+    color: yellow;
+    
+}
+h2{
+    font-family: fantasy;
+    font-size: 6rem;
+    text-align: center;
+    
+}
+h3{
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: 1000;
+    padding-left: 2rem;
+
+}
+h4{
+    font-size: 1.5rem;
+    padding-left: 4rem;
+
+}
+h6{
+    display: none;
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+    padding-left: 6rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    text-indent: 3rem;
+    line-height: 200%;
+}
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;    
+}
+ul{
+    list-style-image: none;
+    list-style-type: none;
+}
+nav>ul>li>a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+div>a{
+    text-decoration: none;
+    margin: 1rem;
+    color:yellow;
+    font-size: 2rem;
+}
+article>a{
+    color:black;
+    text-decoration: none;
+
+}
+div>a:hover{
+    font-size:3rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.BackGroundRepeat{
+    background-image: url("../Imagenes/AkatskiImagePattern.jpg");
+    background-repeat: repeat;
+    height: 100vh;
+}
+.colorBlancoDeLetra{
+    color:white;
+}
+.margin{
+    margin: 2rem;
+}
+.textAlignCenter{
+    text-align: center;
+}
+.acercarNumero{
+    list-style-position: inside;
+}
+footer{
+    text-align: center;
+}
+.backGroundColorNaranja{
+    background-color: #eb6c31;
+}
+.displayFlex{
+    display: flex;
+    justify-content: space-around;
+}
+.imagenKakarot{
+    width: 480px;
+    height: 270px;
+    margin: auto;
+    border-radius: 10px;
+}
+.iframe{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.colorYellow{
+    color: yellow;
+}
+.letraTamanio{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.marginAuto{
+    margin: 0 auto;
+}
+.indiceInterno{
+    text-decoration: none;
+    color:black;
+    list-style-image: none;
+}
+.indiceInternoUl{
+    list-style-image: none;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    main {
+        padding: 2rem;
+    }
+}
+
